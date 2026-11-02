@@ -1,0 +1,14 @@
+# Welding Defect Dataset (v2) — конфигурация
+# Перед обучением укажите путь к локальной копии набора.
+
+path: The Welding Defect Dataset - v2/The Welding Defect Dataset - v2
+
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 3
+names:
+  0: Bad Weld
+  1: Good Weld
+  2: Defect
